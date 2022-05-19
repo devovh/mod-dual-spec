@@ -1,11 +1,12 @@
 #include "ScriptMgr.h"
+#include "Player.h"
 
 class StartDualSpec : public PlayerScript
 {
 public:
 	StartDualSpec() : PlayerScript("StartDualSpec") { }
 
-	uint64 guid;
+	ObjectGuid guid;
 	
 	void OnCreate(Player* player)
 	{

@@ -1,6 +1,6 @@
 void AddStartDualSpec();
 
-void Addmod_start_dual_specScripts()
+void Addmod_dual_specScripts()
 {
     AddStartDualSpec();
 }
